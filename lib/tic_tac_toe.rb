@@ -94,9 +94,10 @@ end
     
     index = input_to_index(input)  
     
-    player = current_player
+    
     
       if valid_move?(index)
+        player = current_player
         move(index, player) 
         
       else 
