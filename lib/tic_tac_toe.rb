@@ -76,7 +76,13 @@ end
   
   
   
-  
+  def current_player
+    if turn_count.odd?
+      "O"
+    else 
+      "X"
+    end 
+  end 
   
   
  
