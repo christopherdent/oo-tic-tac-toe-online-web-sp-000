@@ -151,7 +151,7 @@ end
       "X"
     else 
       nil 
-      end 
+    end 
   end 
 
   
