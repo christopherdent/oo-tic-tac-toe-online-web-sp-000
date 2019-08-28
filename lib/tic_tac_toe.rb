@@ -104,7 +104,7 @@ end
         
       end
       
-    display_board
+
   end
   
 
