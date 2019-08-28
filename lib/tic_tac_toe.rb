@@ -100,7 +100,7 @@ end
 
   
   
-def won?(board)
+def won?
   
 WIN_COMBINATIONS.detect do |win_combination|
   index1 = win_combination[0]
