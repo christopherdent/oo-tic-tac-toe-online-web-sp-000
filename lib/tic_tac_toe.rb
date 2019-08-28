@@ -97,6 +97,7 @@ def turn
       move(index, token="X")
       display_board
     else
+      
     puts "Please enter 1-9:"
 		user_inputinput = gets.strip 
   
