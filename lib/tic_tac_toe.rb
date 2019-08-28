@@ -100,6 +100,7 @@ def turn
     turn 
   
   end
+  display_board
 end
   
   
