@@ -87,7 +87,7 @@ end
   end 
   
   
-  binding.pry   
+
 def turn
   puts "Please enter 1-9:"
 
@@ -103,7 +103,7 @@ def turn
 end
   
   
-  
+    binding.pry   
   
   
   
