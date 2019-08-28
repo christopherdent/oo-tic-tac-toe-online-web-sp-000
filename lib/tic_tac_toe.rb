@@ -153,7 +153,7 @@ end
       nil 
     end 
   end 
-
+binding.pry 
   
   def play 
     until over?
@@ -161,7 +161,7 @@ end
     end
    
     if won?
-      puts "Congratulations #{current_player}!"
+      puts "Congratulations {winner}!"
     end 
   
   end 
