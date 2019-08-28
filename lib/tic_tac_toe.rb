@@ -164,6 +164,6 @@ end
       puts "Congratulations #{current_player}!"
     end 
   
-  
+end 
   
 end  
