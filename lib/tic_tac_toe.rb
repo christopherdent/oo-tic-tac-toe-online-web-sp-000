@@ -95,7 +95,7 @@ def turn
       move(index, character)
       display_board
    else
-   turn
+   puts "Please enter 1-9:"
   end
 end
   
