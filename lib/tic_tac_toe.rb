@@ -135,9 +135,7 @@ end
   end 
   
   def draw?
-    if !won? && full?
-      true 
-    end 
+    !won? && full?
   end 
   
   
