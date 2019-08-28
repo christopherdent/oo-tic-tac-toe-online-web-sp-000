@@ -134,4 +134,3 @@ end
   
   
 end  
-binding.pry  
