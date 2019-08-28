@@ -107,9 +107,9 @@ WIN_COMBINATIONS.detect do |win_combination|
   index2 = win_combination[1] 
   index3 = win_combination[2] 
 
-  position_1 = board[index1]
-  position_2 = board[index2]
-  position_3 = board[index3]
+  position_1 = @board[index1]
+  position_2 = @board[index2]
+  position_3 = @board[index3]
   
    if position_1 == "X" && position_2 == "X" && position_3 == "X"
     return win_combination
