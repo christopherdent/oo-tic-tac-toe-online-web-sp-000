@@ -144,15 +144,11 @@ end
   end 
   
   
-  def winner
-    if over? && current_player == "X"
-      "O"
-    elsif over? && current_player == "O" 
-      "X"
-    else 
-      nil 
-    end 
-  end 
+def winner
+   if won?
+      return @board[won?]
+   end
+end 
  
   def play 
     until over?
