@@ -161,8 +161,10 @@ end
    
     if winner == "X"
       puts "Congratulations X!"
-    else 
+    elsif winner == "O" 
       puts "Congratulations O!"
+    else
+      puts "Cat's Game!"
     end 
   
   end 
