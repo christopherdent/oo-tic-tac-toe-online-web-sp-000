@@ -96,7 +96,7 @@ def turn
      if valid_move?(index)
       move(index, token="X")
       display_board
-    else
+      else
     turn 
   
   end
