@@ -100,21 +100,11 @@ end
       move(index, current_player)
         
       
-      end
+      
       
 
   end
 
-def turn
-  display_board
-  puts "Please enter 1-9:"
-  input = gets.strip
-    if !valid_move?(input)
-      turn
-    end
-    move(input, current_player)
-    display_board
-  end
 
   
   
