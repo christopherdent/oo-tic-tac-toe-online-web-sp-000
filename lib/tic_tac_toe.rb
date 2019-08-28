@@ -99,7 +99,7 @@ def turn
     else
       
     puts "Please enter 1-9:"
-		user_inputinput = gets.strip 
+		user_input = gets.strip 
   
   end
 end
