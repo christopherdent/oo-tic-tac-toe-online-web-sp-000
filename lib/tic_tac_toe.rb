@@ -144,15 +144,19 @@ end
   end 
   
   
-  def winner
-    if over? && current_player == "X"
-      "O"
-    elsif over? && current_player == "O" 
-      "X"
-    else 
-      nil 
-    end 
-  end 
+def winner
+  index = []
+  index = won?
+  if index == false
+    return nil
+  else
+    if @board[index[0]] == "X"
+      return "X"
+    else
+      return "O"
+    end
+  end
+end
  
   def play 
     until over?
