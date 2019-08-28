@@ -85,7 +85,11 @@ end
   end 
   
   
- 
+ def won?(index)
+   
+   
+   
+ end 
   
   
   
