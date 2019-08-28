@@ -98,9 +98,10 @@ def turn
       display_board
     else
       
-    puts "Please enter 1-9:"
-		user_input = gets.strip 
-		puts @board
+      puts "Please enter 1-9:"
+	    user_input = gets.strip 
+		  
+		  
   
   end
 end
