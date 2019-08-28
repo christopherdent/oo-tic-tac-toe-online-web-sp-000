@@ -1,8 +1,5 @@
 class TicTacToe
   
-  
-  
-  
   def initialize
     
     
