@@ -126,12 +126,12 @@ end
   
   
   def full?
-    if turn_count > 9 
-      true 
-    else
-      false 
-      
-    end 
+   if @board.include?(" ")
+    false
+  else
+    true
+  end
+    
   end 
   
   
