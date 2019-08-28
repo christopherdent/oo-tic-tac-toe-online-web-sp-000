@@ -147,9 +147,11 @@ end
   def winner
     if over? && current_player == "X"
       "O"
-    else 
+    elsif over? && current_player == "O" 
       "X"
-    end 
+    else 
+      nil 
+      end 
   end 
 
   
