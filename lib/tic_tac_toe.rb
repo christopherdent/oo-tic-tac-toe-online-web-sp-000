@@ -98,7 +98,7 @@ def turn
       display_board
     else
     puts "Please enter 1-9:"
-		input = gets.chomp 
+		user_inputinput = gets.strip 
   
   end
 end
