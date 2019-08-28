@@ -88,7 +88,7 @@ end
   
     
   def turn
-    
+    display_board
     puts "Please enter 1-9:"
     input = gets.strip
     
