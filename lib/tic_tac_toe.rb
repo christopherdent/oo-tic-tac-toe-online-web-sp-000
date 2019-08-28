@@ -159,11 +159,18 @@ end
     until over?
     turn
     end
-  end 
+   
     if won?
       puts "Congratulations #{current_player}!"
     end 
   
-end 
+  end 
+  
+  
+  
+  
+  
+  
+  
   
 end  
