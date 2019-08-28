@@ -78,16 +78,13 @@ end
   
   
   
-def current_player
-  
-  num_turns = turn_count
-  if num_turns % 2 == 0
-    player = "X"
-  else
-    player = "O"
-  end
-  return player
-end
+  def current_player
+    if !turn_count.odd?
+      "O"
+    else 
+      "X"
+    end 
+  end 
   
     
   def turn
