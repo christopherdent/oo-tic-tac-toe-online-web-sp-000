@@ -92,10 +92,10 @@ def turn
    index = input_to_index(user_input)
    character = current_player
      if valid_move?(index)
-      move(index, character)
+      move(index, token)
       display_board
     else
-      
+      turn 
       
   end
 end
