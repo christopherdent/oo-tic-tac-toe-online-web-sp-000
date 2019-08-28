@@ -95,7 +95,6 @@ def turn
    character = current_player
      if valid_move?(index)
       move(index, token="X")
-     
       else
     turn 
   
