@@ -153,8 +153,7 @@ end
       nil 
     end 
   end 
-binding.pry 
-  
+ 
   def play 
     until over?
     turn
