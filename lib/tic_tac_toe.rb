@@ -99,7 +99,7 @@ end
       if valid_move?(index)
         move(index, player) 
         display_board
-      else 
+      elsif !valid_move?(index) 
         turn 
       end 
       
