@@ -133,5 +133,5 @@ end
   
   
   
-end  b
-inding.pry  
+end  
+binding.pry  
