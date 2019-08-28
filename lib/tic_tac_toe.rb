@@ -97,7 +97,7 @@ end
     char = current_player
     
       if valid_move?(index)
-        move (index, char) 
+        move(index, char) 
         display_board
       else 
         turn 
