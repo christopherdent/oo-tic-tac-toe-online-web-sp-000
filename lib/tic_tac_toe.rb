@@ -160,7 +160,9 @@ end
     turn
     end
   end 
-  
+    if won?
+      puts "Congratulations #{current_player}!"
+    end 
   
   
   
