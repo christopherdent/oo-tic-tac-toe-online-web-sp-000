@@ -85,6 +85,26 @@ end
   end 
   
   
+  
+  def turn
+    puts "Where would you like to go?"
+    user_input = gets.strip 
+    index = input_to_index(user_input) 
+    if valid_move?(index)
+      @board[index]
+      puts @board 
+    else
+      puts "Where would you like to go?"
+    end 
+    
+  end 
+  
+  
+  
+  
+  
+  
+  
  def won?(index)
    
    if @board == WIN_COMBINATIONS.any?
