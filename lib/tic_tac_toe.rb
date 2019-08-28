@@ -55,14 +55,14 @@ class TicTacToe
     if position_taken?(index)
       false
     elsif 
-      index > 8
+      index.between?(0, 8)
       false 
     else 
       true 
     end
   end 
   
-  
+
     
   def turn_count
     counter = 0
