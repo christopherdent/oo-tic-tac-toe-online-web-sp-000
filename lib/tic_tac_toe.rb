@@ -55,8 +55,9 @@ class TicTacToe
     if position_taken?(index)
       false
     elsif 
-      index > 8
+      index > 8 && < 1
       false 
+      
     else 
       true 
     end
