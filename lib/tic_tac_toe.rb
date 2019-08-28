@@ -1,17 +1,6 @@
 class TicTacToe
   
   
-  @board = Array.new(9, "")
-  
-  def initialize
-    @board
-  end 
-  
-  
-  
-class TicTacToe
-  
-  
   
   
   def initialize
