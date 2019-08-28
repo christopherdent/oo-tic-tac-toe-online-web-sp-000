@@ -144,20 +144,7 @@ end
   end 
   
   
-def winner
- 
-  if !won? 
-    return nil
-  elsif draw?
-    return nil 
-  else
-    if @board[index[0]] == "X"
-      return "X"
-    else
-      return "O"
-    end
-  end
-end
+
  
   def play 
     until over?
