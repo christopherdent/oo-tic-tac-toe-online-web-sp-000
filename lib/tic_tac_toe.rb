@@ -139,7 +139,9 @@ end
   end 
   
   
-  
+  def over?
+    draw? || won? 
+  end 
   
   
   
