@@ -76,7 +76,7 @@ end
   
   
   
-  def current_player(index)
+  def current_player
     if turn_count.odd?
       "O"
     else 
