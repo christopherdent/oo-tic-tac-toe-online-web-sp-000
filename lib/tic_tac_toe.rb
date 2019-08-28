@@ -144,7 +144,13 @@ end
   end 
   
   
-  
+  def winner
+    if over? && current_player == "X"
+      "O"
+    else 
+      "X"
+    end 
+  end 
 
   
   
