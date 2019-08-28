@@ -146,7 +146,7 @@ end
 def winner
     if draw?
       nil
-      elsif !won
+      elsif !won?
       nil 
     
     elsif over? && current_player == "X"
