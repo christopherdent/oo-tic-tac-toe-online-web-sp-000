@@ -88,10 +88,10 @@ end
   
   
 
-  def turn
-    display_board
-    puts "Please enter 1-9:"
-    input = gets.strip
+def turn
+  display_board
+  puts "Please enter 1-9:"
+  input = gets.strip
     if !valid_move?(input)
       turn
     end
