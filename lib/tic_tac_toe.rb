@@ -94,10 +94,10 @@ end
     
     index = input_to_index(input)  
     
-    current_player = current_player
+    player = current_player
     
       if valid_move?(index)
-        move(index, current_player) 
+        move(index, player) 
         display_board
       else 
         turn 
