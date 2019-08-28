@@ -98,9 +98,9 @@ def turn
      
       else
     turn 
-  display_board
-  end
   
+  end
+  display_board
 end
   
   
