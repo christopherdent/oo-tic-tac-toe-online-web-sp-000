@@ -86,20 +86,18 @@ end
   
   
   
-  def turn
-    puts "Where would you like to go?"
-    user_input = gets.strip 
-    
-    index = input_to_index(user_input) 
-    
-    if valid_move?(index)
-      @board[current_player]
-      puts @board 
-    else
-      puts "Where would you like to go?"
-    end 
-    
-  end 
+def turn
+  puts "Please enter 1-9:"
+   user_input = gets.strip
+   index = input_to_index(user_input)
+   character = current_player(board)
+     if valid_move?(index)
+      move(index, character)
+      display_board
+   else
+   turn
+  end
+end
   
   
   
