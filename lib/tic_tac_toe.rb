@@ -87,7 +87,10 @@ end
   
  def won?(index)
    
-   
+   if @board == WIN_COMBINATIONS.any?
+     true
+   else
+     false 
    
  end 
   
