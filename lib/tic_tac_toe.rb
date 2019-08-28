@@ -62,21 +62,21 @@ class TicTacToe
   
   
     
-def turn_count(board)
- counter = 0
- board.each do |spot|
-  if spot == "X" || spot == "O"
-      counter += 1
-    end
-  end 
-return counter
+  def turn_count(board)
+    counter = 0
+    board.each do |spot|
+      if spot == "X" || spot == "O"
+        counter += 1
+      end
+    end 
+  counter
 end
   
   
   
   
   
-  def current_player
+  def current_player(index)
     if turn_count.odd?
       "O"
     else 
