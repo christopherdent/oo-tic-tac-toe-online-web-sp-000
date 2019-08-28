@@ -160,8 +160,10 @@ binding.pry
     turn
     end
    
-    if won?
-      puts "Congratulations {winner}!"
+    if winner == "X"
+      puts "Congratulations X!"
+    else 
+      puts "Congratulations O!"
     end 
   
   end 
