@@ -94,9 +94,8 @@ def turn
      if valid_move?(index)
       move(index, character)
       display_board
-   else
-   puts "Please enter 1-9:"
-   user_input = gets.strip
+    else
+      
       
   end
 end
