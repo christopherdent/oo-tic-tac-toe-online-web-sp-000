@@ -144,9 +144,12 @@ end
   end 
   
 def winner
+    if draw?
+      nil
+      elsif !won
+      nil 
     
-    
-    if over? && current_player == "X"
+    elsif over? && current_player == "X"
       "O"
     elsif over? && current_player == "O" 
       "X"
