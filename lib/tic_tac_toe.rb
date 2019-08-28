@@ -79,7 +79,7 @@ end
   
   
   def current_player
-    if turn_count.odd?
+    if !turn_count.odd?
       "O"
     else 
       "X"
