@@ -125,7 +125,14 @@ WIN_COMBINATIONS.detect do |win_combination|
 end
   
   
-  
+  def full?
+    if turn_count > 9 
+      true 
+    else
+      false 
+      
+    end 
+  end 
   
   
   
